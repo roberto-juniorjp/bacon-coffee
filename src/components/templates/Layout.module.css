@@ -1,0 +1,13 @@
+.layout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.content {
+  max-width: var(--app-size-1);
+  margin-bottom: 90px;
+}

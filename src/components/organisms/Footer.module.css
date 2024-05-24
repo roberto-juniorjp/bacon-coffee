@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: var(--color-dark-bacon);
+}
+
+.footer p {
+  color: var(--color-white);
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.footer a {
+  color: var(--color-light-bacon);
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 1;
+  transition: var(--transition);
+}
+
+.footer a:hover {
+  opacity: 0.8;
+}

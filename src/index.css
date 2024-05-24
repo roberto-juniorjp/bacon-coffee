@@ -1,0 +1,41 @@
+@import "./reset.css";
+
+/* Variables */
+
+:root {
+  /* App Content Size */
+  --app-size-1: 1480px;
+  --app-size-2: 1130px;
+  --app-size-3: 860px;
+  --app-size-4: 590px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dark-bacon: #602420;
+  --color-light-bacon: #ecae9f;
+  --color-gold: #e7b973;
+  --color-dark: #333;
+  --color-green: #0a9b43;
+  --color-red: #de3939;
+
+  --font-title: Montserrat;
+  --font-size-small: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-big: 3rem;
+  --font-title-weight: 900;
+  --font-subtitle-weight: 600;
+
+  --transition: all 0.5s ease-in-out;
+
+  --padding-small: 0.5rem;
+  --padding-medium: 1rem;
+  --padding-big: 2rem;
+
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-big: 16px;
+  --border-radius-large: 32px;
+  --border-radius-round: 50%;
+
+  --opacity-small: 0.9;
+}
